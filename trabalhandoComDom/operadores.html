@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operadores</title>
+</head>
+<body>
+    <h1>Operadores</h1>
+    <script>
+        // let n1 = Number(prompt("Digite um numero?"))
+        // const Pi = 3.14;
+        // console.log(`Tipo do Dado: ${typeof(n1)}, Valor: ${n1}`)
+        const nome = "junior"//prompt("Digite seu nome?")
+        const sobrenome = "oliveira"//prompt("Digite seu sobre nome ")
+        //Informe o ano de nascimento e em seguida mostrar a idade da pessoa
+        const ano = 2023
+        const idade = 25 //prompt("Digite o ano de nascimento")
+        let res = ano - idade
+        
+
+     
+        console.log(`O nome da pessoa é:${nome}, e o sobrenome: ${sobrenome}, Idade: ${res} anos`)
+
+        // function areaCirculo (Pi, n1) {
+        //     let Raio = n1 * n1
+        //     return Raio * Pi
+        // }
+
+        // console.log(`Valor: ${areaCirculo(Pi, n1)}`)
+        
+        let Meses = 12
+        let Dias = 365
+        let Horas = 24
+        let Minutos = 60
+
+        //Entrada do dados
+        const nomePessoa = "Junior"
+        const idadePessoa = 98
+
+
+        //processamento dos dados
+        let idadeMeses = idadePessoa * Meses
+        let idadeDias = idadePessoa * Dias
+        let idadeHoras = idadeDias * Horas
+        let idadeMinutos = idadeHoras * Minutos
+
+        //Decisões (if -else)
+
+        // if (idadePessoa <= 0 || idadePessoa >= 100 ){
+        //     alert("Não pode ser 0")
+        // } else {
+        //     console.log(`Nome: ${nomePessoa}, idade: ${idadePessoa}, idade em meses: ${idadeMeses}, idade em dias: ${idadeDias}, idade em horas: ${idadeHoras}, idade em minutos ${idadeMinutos}`);
+        // }
+
+        idadePessoa <= 0 || idadePessoa >= 100  ? alert("Não pode ser 0") : 
+        console.log(`Nome: ${nomePessoa}, 
+        idade: ${idadePessoa}, 
+        idade em meses: ${idadeMeses}, 
+        idade em dias: ${idadeDias}, 
+        idade em horas: ${idadeHoras}, 
+        idade em minutos ${idadeMinutos}`)
+
+
+    </script>
+</body>
+</html>
